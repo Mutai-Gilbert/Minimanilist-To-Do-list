@@ -28,14 +28,16 @@ class todos {
   }
 
   static addTodo(item) {
-    const list = document.getElementById('todo-items');
-    list.innerHTML += `
+    const list = document.querySelector('.list');
+    const todoli = document.createElement('li');
+    todoli.innerHTML = `
     <li class="listItems">
                 <input type="checkbox" name="select" id="" class="check" />
                 <p class="title">${item.description}</p>
                 <i id="moreicon" class="fa-solid fa-ellipsis-vertical"></i>
               </li>
     `;
+    list.appendChild(todoli);
   }
 }
 
