@@ -28,4 +28,5 @@ module.exports = {
   optimization: {
     runtimeChunk: 'single',
   },
+  resolve: { extensions: ['.js', '.ts'] },
 };
