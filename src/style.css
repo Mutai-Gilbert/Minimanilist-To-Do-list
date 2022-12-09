@@ -43,6 +43,10 @@ h3 {
   padding: 0;
 }
 
+.listItems {
+  width: 100vw;
+}
+
 list li p {
   display: flex;
   justify-content: flex-start;
