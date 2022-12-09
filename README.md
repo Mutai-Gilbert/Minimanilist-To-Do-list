@@ -71,7 +71,7 @@
 > <img align="center" src="project_demo.PNG" alt="logo" width="100%"  height="auto" />
   <br/>
 
-- [Live Demo Link](https://github.com/Mutai-Gilbert/To-do-List.git)
+- [Live Demo Link](https://mutai-gilbert.github.io/Minimanilist-To-Do-list/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
